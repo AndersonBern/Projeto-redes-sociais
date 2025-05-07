@@ -17,20 +17,39 @@ section {
     top: 50%;
     transform: translate(-50%, -50%);
 
-    width: 40vw;
+    width: 47vw;
     height: 80vh;
-    margin: auto;
 
     background: url(imagens/frame-iphone.png) center center no-repeat;
     background-size: contain;
+    background-attachment: fixed;
 
 }  
 
+#tela {
+    position: absolute;
+    background-image: url(imagens/tela-home.jpg);
+    background-size: contain;
+    background-attachment: auto;
+    border-radius: 5px;
+    margin-top: 2px;
+    margin-left: 1px;
+
+    width: 207px;
+    height: 365px;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+#icones {
+    position: absolute;
+}
+
 iframe {
-    display: block;
-    width: 31vw;
-    height: 61vh;
-    margin: auto;
-    margin-top: 10vh;
+    width: 207px;
+    height: 365px;
     
 }
