@@ -11,7 +11,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
-section {
+#celular {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -46,10 +46,31 @@ section {
 
 #icones {
     position: absolute;
+    width: 80px;
+    height: 76vh;
+
+    left: 90%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
 }
 
 iframe {
     width: 207px;
     height: 365px;
-    
+    overflow: hidden;
+}
+
+img {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    width: 65px;
+    height: 10vh;
+    padding: 8px;
+}
+
+img:hover {
+    transform: scale(1.1);
+    transition-duration: 0.2s;
 }
