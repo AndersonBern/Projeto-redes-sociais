@@ -19,7 +19,6 @@ main {
 
 #celular {
     position: relative;
-    border: 2px dashed black;
     width: 100%;
     height: 90%;
     display: flex;
